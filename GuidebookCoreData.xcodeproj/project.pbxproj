@@ -23,6 +23,7 @@
 		86AA8239265EBB7800A91590 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8235265EBB7800A91590 /* Place+CoreDataProperties.swift */; };
 		86AA823A265EBB7800A91590 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8236265EBB7800A91590 /* Note+CoreDataClass.swift */; };
 		86AA823B265EBB7800A91590 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8237265EBB7800A91590 /* Note+CoreDataProperties.swift */; };
+		86AA823E265EBDC600A91590 /* PreloadedData.json in Resources */ = {isa = PBXBuildFile; fileRef = 86AA823D265EBDC600A91590 /* PreloadedData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		86AA8235265EBB7800A91590 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		86AA8236265EBB7800A91590 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		86AA8237265EBB7800A91590 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		86AA823D265EBDC600A91590 /* PreloadedData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PreloadedData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +78,12 @@
 		86AA8205265EB3BE00A91590 /* GuidebookCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				86AA8206265EB3BE00A91590 /* AppDelegate.swift */,
+				86AA8208265EB3BE00A91590 /* SceneDelegate.swift */,
 				86AA8221265EB46D00A91590 /* Storyboards */,
 				86AA8220265EB45F00A91590 /* Models */,
 				86AA821F265EB45600A91590 /* Views */,
 				86AA821E265EB44600A91590 /* ViewControllers */,
-				86AA8206265EB3BE00A91590 /* AppDelegate.swift */,
-				86AA8208265EB3BE00A91590 /* SceneDelegate.swift */,
 				86AA8230265EB8E800A91590 /* Helpers */,
 				86AA8222265EB47A00A91590 /* Data */,
 				86AA8212265EB3BF00A91590 /* Assets.xcassets */,
@@ -132,6 +134,7 @@
 		86AA8222265EB47A00A91590 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				86AA823D265EBDC600A91590 /* PreloadedData.json */,
 				86AA820F265EB3BE00A91590 /* GuidebookCoreData.xcdatamodeld */,
 			);
 			path = Data;
@@ -202,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AA823E265EBDC600A91590 /* PreloadedData.json in Resources */,
 				86AA8216265EB3BF00A91590 /* LaunchScreen.storyboard in Resources */,
 				86AA8213265EB3BF00A91590 /* Assets.xcassets in Resources */,
 				86AA820E265EB3BE00A91590 /* Main.storyboard in Resources */,
