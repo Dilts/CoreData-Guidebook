@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862D7723265ECC2000D7B5C6 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D7722265ECC2000D7B5C6 /* PlaceTableViewCell.swift */; };
 		86AA8207265EB3BE00A91590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8206265EB3BE00A91590 /* AppDelegate.swift */; };
 		86AA8209265EB3BE00A91590 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8208265EB3BE00A91590 /* SceneDelegate.swift */; };
 		86AA820B265EB3BE00A91590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA820A265EB3BE00A91590 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		862D7722265ECC2000D7B5C6 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		86AA8203265EB3BE00A91590 /* GuidebookCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuidebookCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AA8206265EB3BE00A91590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86AA8208265EB3BE00A91590 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		86AA821F265EB45600A91590 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				862D7722265ECC2000D7B5C6 /* PlaceTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				86AA820B265EB3BE00A91590 /* ViewController.swift in Sources */,
 				86AA8207265EB3BE00A91590 /* AppDelegate.swift in Sources */,
 				86AA8211265EB3BE00A91590 /* GuidebookCoreData.xcdatamodeld in Sources */,
+				862D7723265ECC2000D7B5C6 /* PlaceTableViewCell.swift in Sources */,
 				86AA823B265EBB7800A91590 /* Note+CoreDataProperties.swift in Sources */,
 				86AA8225265EB57300A91590 /* PlaceViewController.swift in Sources */,
 				86AA822E265EB81D00A91590 /* NotesViewController.swift in Sources */,
