@@ -14,6 +14,11 @@
 		86AA8211265EB3BE00A91590 /* GuidebookCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86AA820F265EB3BE00A91590 /* GuidebookCoreData.xcdatamodeld */; };
 		86AA8213265EB3BF00A91590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AA8212265EB3BF00A91590 /* Assets.xcassets */; };
 		86AA8216265EB3BF00A91590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AA8214265EB3BF00A91590 /* LaunchScreen.storyboard */; };
+		86AA8225265EB57300A91590 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8224265EB57300A91590 /* PlaceViewController.swift */; };
+		86AA8228265EB80200A91590 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8227265EB80200A91590 /* InfoViewController.swift */; };
+		86AA822B265EB81100A91590 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA822A265EB81100A91590 /* MapViewController.swift */; };
+		86AA822E265EB81D00A91590 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA822D265EB81D00A91590 /* NotesViewController.swift */; };
+		86AA8232265EB90100A91590 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8231265EB90100A91590 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		86AA8212265EB3BF00A91590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86AA8215265EB3BF00A91590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86AA8217265EB3BF00A91590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AA8224265EB57300A91590 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		86AA8227265EB80200A91590 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		86AA822A265EB81100A91590 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		86AA822D265EB81D00A91590 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		86AA8231265EB90100A91590 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,69 @@
 		86AA8205265EB3BE00A91590 /* GuidebookCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				86AA8221265EB46D00A91590 /* Storyboards */,
+				86AA8220265EB45F00A91590 /* Models */,
+				86AA821F265EB45600A91590 /* Views */,
+				86AA821E265EB44600A91590 /* ViewControllers */,
 				86AA8206265EB3BE00A91590 /* AppDelegate.swift */,
 				86AA8208265EB3BE00A91590 /* SceneDelegate.swift */,
-				86AA820A265EB3BE00A91590 /* ViewController.swift */,
-				86AA820C265EB3BE00A91590 /* Main.storyboard */,
+				86AA8230265EB8E800A91590 /* Helpers */,
+				86AA8222265EB47A00A91590 /* Data */,
 				86AA8212265EB3BF00A91590 /* Assets.xcassets */,
-				86AA8214265EB3BF00A91590 /* LaunchScreen.storyboard */,
 				86AA8217265EB3BF00A91590 /* Info.plist */,
-				86AA820F265EB3BE00A91590 /* GuidebookCoreData.xcdatamodeld */,
 			);
 			path = GuidebookCoreData;
+			sourceTree = "<group>";
+		};
+		86AA821E265EB44600A91590 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				86AA820A265EB3BE00A91590 /* ViewController.swift */,
+				86AA8224265EB57300A91590 /* PlaceViewController.swift */,
+				86AA8227265EB80200A91590 /* InfoViewController.swift */,
+				86AA822A265EB81100A91590 /* MapViewController.swift */,
+				86AA822D265EB81D00A91590 /* NotesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		86AA821F265EB45600A91590 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86AA8220265EB45F00A91590 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86AA8221265EB46D00A91590 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				86AA8214265EB3BF00A91590 /* LaunchScreen.storyboard */,
+				86AA820C265EB3BE00A91590 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		86AA8222265EB47A00A91590 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				86AA820F265EB3BE00A91590 /* GuidebookCoreData.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		86AA8230265EB8E800A91590 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				86AA8231265EB90100A91590 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +206,12 @@
 				86AA820B265EB3BE00A91590 /* ViewController.swift in Sources */,
 				86AA8207265EB3BE00A91590 /* AppDelegate.swift in Sources */,
 				86AA8211265EB3BE00A91590 /* GuidebookCoreData.xcdatamodeld in Sources */,
+				86AA8225265EB57300A91590 /* PlaceViewController.swift in Sources */,
+				86AA822E265EB81D00A91590 /* NotesViewController.swift in Sources */,
+				86AA8228265EB80200A91590 /* InfoViewController.swift in Sources */,
 				86AA8209265EB3BE00A91590 /* SceneDelegate.swift in Sources */,
+				86AA822B265EB81100A91590 /* MapViewController.swift in Sources */,
+				86AA8232265EB90100A91590 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
