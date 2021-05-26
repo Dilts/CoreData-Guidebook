@@ -19,6 +19,10 @@
 		86AA822B265EB81100A91590 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA822A265EB81100A91590 /* MapViewController.swift */; };
 		86AA822E265EB81D00A91590 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA822D265EB81D00A91590 /* NotesViewController.swift */; };
 		86AA8232265EB90100A91590 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8231265EB90100A91590 /* Constants.swift */; };
+		86AA8238265EBB7800A91590 /* Place+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8234265EBB7800A91590 /* Place+CoreDataClass.swift */; };
+		86AA8239265EBB7800A91590 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8235265EBB7800A91590 /* Place+CoreDataProperties.swift */; };
+		86AA823A265EBB7800A91590 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8236265EBB7800A91590 /* Note+CoreDataClass.swift */; };
+		86AA823B265EBB7800A91590 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8237265EBB7800A91590 /* Note+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		86AA822A265EB81100A91590 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		86AA822D265EB81D00A91590 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		86AA8231265EB90100A91590 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		86AA8234265EBB7800A91590 /* Place+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataClass.swift"; sourceTree = "<group>"; };
+		86AA8235265EBB7800A91590 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		86AA8236265EBB7800A91590 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		86AA8237265EBB7800A91590 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 		86AA8220265EB45F00A91590 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				86AA8234265EBB7800A91590 /* Place+CoreDataClass.swift */,
+				86AA8235265EBB7800A91590 /* Place+CoreDataProperties.swift */,
+				86AA8236265EBB7800A91590 /* Note+CoreDataClass.swift */,
+				86AA8237265EBB7800A91590 /* Note+CoreDataProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,10 +218,14 @@
 				86AA820B265EB3BE00A91590 /* ViewController.swift in Sources */,
 				86AA8207265EB3BE00A91590 /* AppDelegate.swift in Sources */,
 				86AA8211265EB3BE00A91590 /* GuidebookCoreData.xcdatamodeld in Sources */,
+				86AA823B265EBB7800A91590 /* Note+CoreDataProperties.swift in Sources */,
 				86AA8225265EB57300A91590 /* PlaceViewController.swift in Sources */,
 				86AA822E265EB81D00A91590 /* NotesViewController.swift in Sources */,
+				86AA8239265EBB7800A91590 /* Place+CoreDataProperties.swift in Sources */,
+				86AA8238265EBB7800A91590 /* Place+CoreDataClass.swift in Sources */,
 				86AA8228265EB80200A91590 /* InfoViewController.swift in Sources */,
 				86AA8209265EB3BE00A91590 /* SceneDelegate.swift in Sources */,
+				86AA823A265EBB7800A91590 /* Note+CoreDataClass.swift in Sources */,
 				86AA822B265EB81100A91590 /* MapViewController.swift in Sources */,
 				86AA8232265EB90100A91590 /* Constants.swift in Sources */,
 			);
