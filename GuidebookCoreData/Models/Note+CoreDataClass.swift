@@ -2,7 +2,7 @@
 //  Note+CoreDataClass.swift
 //  GuidebookCoreData
 //
-//  Created by Brian Dilts on 5/26/21.
+//  Created by Brian Dilts on 5/27/21.
 //
 //
 
